@@ -5,7 +5,7 @@ def filter_strings(arr):
             result.append(string)
     return result
 
-# Пример использования:
+
 
 # Ввод массива с клавиатуры
 input_array = input("Введите элементы массива через запятую: ").split(", ")
