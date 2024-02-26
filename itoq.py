@@ -5,13 +5,11 @@ def filter_strings(arr):
             result.append(string)
     return result
 
-
-
 # Ввод массива с клавиатуры
-input_array = input("Введите элементы массива через запятую: ").split(", ")
+# input_array = input("Введите элементы массива через запятую: ").split(", ")
 
 # Или задание массива на старте выполнения алгоритма
-# input_array = ["Hello", "2", "world", ":-)"]
+input_array = ["Hello", "2", "world", ":-)"]
 
 filtered_array = filter_strings(input_array)
 print("Исходный массив:", input_array)
